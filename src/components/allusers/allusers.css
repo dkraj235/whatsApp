@@ -1,0 +1,33 @@
+
+.allusers{
+    /* margin-top: 165px;  */
+    margin-top: 110px;
+    /* margin-bottom: 10px; */
+    /* padding-bottom: 40px; */
+    padding-left: 10px;
+    height: 100vh;  
+    overflow-y: auto;
+    overflow-y: scroll;  
+    
+}
+
+.gt{
+    /* padding-bottom: 10px; */
+}
+.allusers::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 1em;
+    
+}
+ 
+.allusers::-webkit-scrollbar-track-piece {
+    background: #111b21;
+    
+}
+.allusers::-webkit-scrollbar-thumb {
+    background: #aebac1;  
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; */
+} 

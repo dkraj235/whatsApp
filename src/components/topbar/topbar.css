@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topBar{
+    position: fixed;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 44px;
+    background-color: #202c33;
+    color: #fff; 
+}
+
+.logo{
+    font-size: 1.4rem;
+    padding: 0px 4px;
+    color: #00a884;
+}
+.logoTitle{
+    font-family: Helvetica;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+
+}

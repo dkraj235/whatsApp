@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css"
+// import TopBar from "./components/topbar/TopBar";
+// import LeftSideBar from "./components/leftsidebar/LeftSideBar";
+import UserNavSec from "./components/usernavsec/UserNavSec";
+import UserChats from "./components/userchats/UserChats";
 
+
+// how to show text while hovering
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <TopBar/> */}
+     <div className="front-flex-section">
+     {/* <LeftSideBar/> */}
+     <UserNavSec/>
+     <UserChats/>
+     
+     </div>
     </div>
   );
 }
